@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NoteLoom Privacy Policy</title>
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body><main>
+  <header>
+    <p class="eyebrow">NoteLoom</p>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Effective and last updated: July 12, 2026</p>
+    <div class="links"><a href="#english">English</a><a href="#zh-hans">简体中文</a><a href="#zh-hant">繁體中文</a></div>
+  </header>
+
+  <section id="english">
+    <h2>English</h2>
+    <p>This policy explains how NoteLoom handles information when you capture learning material, create notes, use Shortcuts, or choose optional external AI processing.</p>
+    <h3>Default on-device processing</h3>
+    <p>NoteLoom does not require an account for its core features. When Apple On-Device mode is selected, screenshots are normalized, text is recognized with Apple Vision, and summaries are generated locally. Screenshots, OCR text, summaries, folders, and notes remain in the app's local storage and are not sent to NoteLoom or third-party servers.</p>
+    <h3>Optional external AI</h3>
+    <p>External AI is off by default. If you enter a compatible backend, review the provider disclosure, and explicitly consent, NoteLoom sends the selected screenshot, OCR text when available, output language, and a request identifier through that backend to the named AI provider solely to produce a title, summary, and key points. Provider terms and retention practices also apply. NoteLoom does not intentionally persist screenshot bytes, OCR source text, or generated note content in its backend database.</p>
+    <h3>Anonymous cloud identity and credits</h3>
+    <p>If external AI is enabled, the service creates a random device identifier and stores a one-way hash of its access token, credit balance, credit ledger, request identifiers, content fingerprints, provider status, and timestamps. Content fingerprints cannot reconstruct a screenshot or its text. A completed response may stay in a bounded memory cache for up to 15 minutes to make immediate retries idempotent.</p>
+    <h3>Purchases and diagnostics</h3>
+    <p>Apple processes optional credit purchases through StoreKit. NoteLoom may receive product identifiers and signed transaction information needed to validate a purchase and grant credits, but not full payment-card details. Infrastructure may retain limited operational logs such as time, IP address, request path, status code, and error category for security and reliability. Request bodies, screenshots, OCR text, access tokens, and AI responses are not intentionally logged.</p>
+    <h3>Tracking, advertising, and sharing</h3>
+    <p>NoteLoom does not use advertising SDKs, cross-app tracking, or sell personal information. Information is shared only with Apple for platform services and, when you explicitly enable external AI, with the configured backend and identified AI provider to fulfill that request.</p>
+    <h3>Retention, deletion, and security</h3>
+    <p>You can delete notes and folders in the app. Uninstalling NoteLoom removes its local app data unless retained in a device backup managed by Apple. If you enabled external AI, Settings includes a permanent cloud-identity deletion action that removes the token, balance, ledger, and request records; remaining credits cannot be restored. We use transport encryption in production, access controls, token hashing, and transactional credit accounting.</p>
+    <h3>Children, changes, and contact</h3>
+    <p>NoteLoom is not specifically directed to children under 13 and does not knowingly collect their personal information. A parent or guardian should supervise any optional external-AI use by a minor. We may update this policy as features or providers change and will publish the revision date here.</p>
+    <p>Privacy questions or requests: <a href="mailto:icubic3@gmail.com">icubic3@gmail.com</a></p>
+  </section>
+
+  <section id="zh-hans" class="language" lang="zh-Hans">
+    <h2>简体中文</h2>
+    <p>本政策说明 NoteLoom 在你采集学习资料、创建笔记、使用快捷指令或选择外部 AI 时如何处理信息。</p>
+    <h3>默认本地处理</h3>
+    <p>核心功能无需注册账号。选择“Apple 本地模型”时，图片预处理、Vision OCR 文字识别与摘要均在设备上完成。截图、OCR 原文、摘要、文件夹与笔记保存在 App 本地，不会发送给 NoteLoom 或第三方服务器。</p>
+    <h3>可选外部 AI</h3>
+    <p>外部 AI 默认关闭。仅当你填写兼容后端、阅读供应商说明并明确同意后，NoteLoom 才会通过该后端向页面所标明的 AI 供应商发送所选截图、可用的 OCR 文字、输出语言和请求标识，用于生成标题、摘要与知识点。供应商自身条款和保留政策同时适用。NoteLoom 后端不会主动把截图、OCR 原文或生成的笔记内容写入数据库。</p>
+    <h3>匿名云端身份、credits 与购买</h3>
+    <p>启用外部 AI 后，服务会创建随机设备标识，并保存访问令牌的单向哈希、credit 余额及账本、请求标识、内容指纹、供应商状态和时间戳。内容指纹无法还原截图或文字。为避免重试重复扣费，完成结果最多可在受限内存缓存中保留 15 分钟。可选 credit 购买由 Apple StoreKit 处理；NoteLoom 只接收验证交易所需的商品标识和签名交易信息，不接收完整银行卡资料。</p>
+    <h3>日志、跟踪与共享</h3>
+    <p>基础设施可能为安全与可靠性保留有限运行日志，例如时间、IP 地址、请求路径、状态码和错误类别；请求正文、截图、OCR 文字、访问令牌与 AI 回复不会被主动记录。NoteLoom 不含广告 SDK，不进行跨 App 跟踪，也不出售个人信息。数据只会在使用 Apple 平台服务时交由 Apple 处理，或在你明确启用外部 AI 后交给所配置的后端及已标明的供应商完成请求。</p>
+    <h3>保留、删除与未成年人</h3>
+    <p>你可以在 App 内删除笔记和文件夹。卸载 App 会删除本地数据，但 Apple 管理的设备备份可能仍保留副本。启用外部 AI 后，可在“设置”中永久删除云端身份、令牌、余额、账本及请求记录，剩余 credits 无法恢复。NoteLoom 并非专门面向 13 岁以下儿童，也不会主动收集其个人信息；未成年人使用可选外部 AI 时应由监护人监督。</p>
+    <p>隐私问题或请求：<a href="mailto:icubic3@gmail.com">icubic3@gmail.com</a></p>
+  </section>
+
+  <section id="zh-hant" class="language" lang="zh-Hant">
+    <h2>繁體中文</h2>
+    <p>本政策說明 NoteLoom 在你擷取學習資料、建立筆記、使用捷徑或選擇外部 AI 時如何處理資訊。</p>
+    <h3>預設本機處理</h3>
+    <p>核心功能無需註冊帳號。選擇「Apple 本機模型」時，圖片預處理、Vision OCR 文字辨識與摘要均在裝置上完成。截圖、OCR 原文、摘要、資料夾與筆記儲存在 App 本機，不會傳送給 NoteLoom 或第三方伺服器。</p>
+    <h3>選用外部 AI</h3>
+    <p>外部 AI 預設關閉。只有在你填寫相容後端、閱讀供應商說明並明確同意後，NoteLoom 才會透過該後端向頁面所標明的 AI 供應商傳送所選截圖、可用的 OCR 文字、輸出語言和請求識別碼，用於產生標題、摘要與重點。供應商本身的條款和保留政策亦適用。NoteLoom 後端不會主動將截圖、OCR 原文或產生的筆記內容寫入資料庫。</p>
+    <h3>匿名雲端身分、credits 與購買</h3>
+    <p>啟用外部 AI 後，服務會建立隨機裝置識別碼，並儲存存取權杖的單向雜湊、credit 餘額及帳本、請求識別碼、內容指紋、供應商狀態和時間戳記。內容指紋無法還原截圖或文字。為避免重試重複扣款，完成結果最多可在受限記憶體快取中保留 15 分鐘。選用 credit 購買由 Apple StoreKit 處理；NoteLoom 只接收驗證交易所需的產品識別碼和簽署交易資訊，不接收完整信用卡資料。</p>
+    <h3>記錄、追蹤與分享</h3>
+    <p>基礎設施可能為安全與可靠性保留有限運作記錄，例如時間、IP 位址、請求路徑、狀態碼和錯誤類別；請求本文、截圖、OCR 文字、存取權杖與 AI 回覆不會被主動記錄。NoteLoom 不含廣告 SDK、不進行跨 App 追蹤，也不出售個人資訊。資料只會在使用 Apple 平台服務時由 Apple 處理，或在你明確啟用外部 AI 後交給所設定的後端及已標明的供應商完成請求。</p>
+    <h3>保留、刪除與未成年人</h3>
+    <p>你可以在 App 內刪除筆記和資料夾。解除安裝 App 會刪除本機資料，但 Apple 管理的裝置備份可能仍保留副本。啟用外部 AI 後，可在「設定」中永久刪除雲端身分、權杖、餘額、帳本及請求記錄，剩餘 credits 無法復原。NoteLoom 並非專門面向 13 歲以下兒童，也不會主動蒐集其個人資訊；未成年人使用選用外部 AI 時應由監護人監督。</p>
+    <p>隱私問題或請求：<a href="mailto:icubic3@gmail.com">icubic3@gmail.com</a></p>
+  </section>
+  <nav class="card links"><a href="../">NoteLoom</a><a href="../support/">Support</a><a href="../terms/">Terms</a></nav>
+</main></body>
+</html>
