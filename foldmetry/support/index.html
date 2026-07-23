@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="Help, purchase restoration, troubleshooting, and contact information for Foldmetry / 折维.">
+  <title>Support — Foldmetry / 折维</title>
+  <style>
+    :root { --bg:#08111f; --panel:#101c2d; --panel2:#15243a; --text:#f4f7fb; --muted:#aebbd0; --line:#2a3a52; --accent:#68e0c0; --accent2:#8ba8ff; --danger:#ffbe82; --max:920px; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; background:radial-gradient(circle at 88% 0,#1d3d53 0,transparent 34%),var(--bg); color:var(--text); font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    a { color:var(--accent); text-underline-offset:3px; }
+    a:focus-visible,summary:focus-visible { outline:3px solid var(--accent2); outline-offset:3px; border-radius:4px; }
+    .skip-link { position:fixed; inset-inline-start:16px; top:0; z-index:1000; display:inline-flex; align-items:center; min-height:44px; padding:0 16px; color:var(--bg); background:var(--text); font-weight:750; transform:translateY(-120%); }
+    .skip-link:focus { transform:translateY(16px); }
+    header,main,footer { width:min(calc(100% - 32px),var(--max)); margin-inline:auto; }
+    header { padding:56px 0 24px; }
+    .brand { color:var(--accent); font-weight:750; letter-spacing:.08em; text-transform:uppercase; font-size:.82rem; }
+    h1 { margin:.35rem 0 .5rem; font-size:clamp(2.15rem,7vw,4rem); line-height:1.05; letter-spacing:-.04em; }
+    h2 { margin:2.45rem 0 .8rem; font-size:1.45rem; line-height:1.25; }
+    h3 { font-size:1.08rem; }
+    p,li { color:var(--muted); }
+    strong { color:var(--text); }
+    .lede { font-size:1.12rem; max-width:720px; }
+    nav { margin:22px 0; display:flex; flex-wrap:wrap; gap:10px 18px; }
+    nav a { display:inline-flex; align-items:center; min-height:44px; color:var(--text); }
+    .hero-card { margin:20px 0 32px; padding:24px; background:linear-gradient(135deg,rgba(104,224,192,.1),rgba(139,168,255,.09)); border:1px solid #31526a; border-radius:20px; }
+    .hero-card .button { display:inline-block; margin-top:8px; padding:10px 15px; color:#041511; background:var(--accent); border-radius:11px; text-decoration:none; font-weight:750; }
+    .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+    .card { padding:18px; background:var(--panel); border:1px solid var(--line); border-radius:16px; }
+    .card h3 { margin:.1rem 0 .3rem; }
+    .card p { margin:.25rem 0; }
+    details { margin:10px 0; background:var(--panel); border:1px solid var(--line); border-radius:14px; overflow:hidden; }
+    summary { padding:16px 18px; cursor:pointer; color:var(--text); font-weight:700; }
+    details div { padding:0 18px 16px; }
+    .warning { color:var(--danger); }
+    .zh { margin-top:64px; padding-top:28px; border-top:2px solid var(--line); }
+    footer { padding:42px 0 64px; color:var(--muted); font-size:.92rem; border-top:1px solid var(--line); margin-top:58px; }
+    code { color:var(--text); background:#142238; padding:.12rem .32rem; border-radius:5px; }
+    @media (max-width:650px) { .grid { grid-template-columns:1fr; } header { padding-top:38px; } footer a { display:inline-flex; align-items:center; min-height:44px; } }
+    @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } *,*::before,*::after { animation-duration:.01ms!important; animation-iteration-count:1!important; transition-duration:.01ms!important; } }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header>
+    <div class="brand">Foldmetry / <span lang="zh-Hans">折维</span></div>
+    <h1>Support</h1>
+    <p class="lede">Quick help for training, local progress, annual subscriptions, lifetime unlocks, and purchase restoration.</p>
+    <nav aria-label="Language and document navigation">
+      <a href="#english">English</a>
+      <a href="#chinese" lang="zh-Hans">简体中文</a>
+      <a href="../privacy/">Privacy</a>
+      <a href="../terms/">Terms</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section id="english" aria-labelledby="english-title">
+      <h2 id="english-title">English support</h2>
+      <div class="hero-card">
+        <h3>Need a person?</h3>
+        <p>Email us with the app version, device model, iOS/iPadOS version, what you expected, what happened, and the steps that reproduce it. A screenshot is useful when it contains no personal information.</p>
+        <a class="button" href="mailto:icubic3@icloud.com?subject=Foldmetry%20Support">Email icubic3@icloud.com</a>
+        <p>Target response time: within two business days. App Store payment and refund decisions must be handled by Apple.</p>
+      </div>
+
+      <div class="grid" role="group" aria-label="Quick links">
+        <div class="card"><h3>Restore purchases</h3><p>In Foldmetry, open <strong>Settings → Restore Purchases</strong> while signed into the Apple Account used for the purchase.</p></div>
+        <div class="card"><h3>Manage subscription</h3><p>Open <a href="https://apps.apple.com/account/subscriptions" rel="noopener">Apple subscription settings</a> to view, change, or cancel renewal.</p></div>
+        <div class="card"><h3>Request a refund</h3><p>App Store charges are processed by Apple. Submit eligible requests at <a href="https://reportaproblem.apple.com/" rel="noopener">reportaproblem.apple.com</a>.</p></div>
+        <div class="card"><h3>Reset local progress</h3><p>Use the reset option in Foldmetry Settings. Deleting the App also removes its local container, but does not cancel a subscription.</p></div>
+      </div>
+
+      <h2>Frequently asked questions</h2>
+
+      <details open>
+        <summary>Does Foldmetry require an account or internet connection?</summary>
+        <div><p>No Foldmetry account is required. Training questions, progress, and history work locally and are intended to remain available offline. A connection to Apple’s App Store services is required to load current product details, purchase, restore, and refresh entitlements.</p></div>
+      </details>
+
+      <details>
+        <summary>I paid, but Pro is still locked. What should I do?</summary>
+        <div>
+          <ol>
+            <li>Confirm the App Store purchase completed and was not cancelled, pending approval, refunded, or made with a different Apple Account.</li>
+            <li>Connect to the internet and reopen Foldmetry.</li>
+            <li>Open <strong>Settings → Restore Purchases</strong>.</li>
+            <li>For a subscription, confirm it is active in <a href="https://apps.apple.com/account/subscriptions" rel="noopener">Apple subscription settings</a>.</li>
+            <li>Restart the App and device, then try restore once more.</li>
+          </ol>
+          <p>If it remains locked, email support with the product type and approximate purchase date. <strong>Do not send a password, full receipt, card number, or other payment credential.</strong></p>
+        </div>
+      </details>
+
+      <details>
+        <summary>How do I cancel the annual plan?</summary>
+        <div><p>Subscriptions are managed by Apple. Open <a href="https://apps.apple.com/account/subscriptions" rel="noopener">Apple subscription settings</a>, select Foldmetry, and follow Apple’s cancellation steps. Cancel at least 24 hours before the current term ends to avoid renewal. Deleting Foldmetry does not cancel the plan.</p></div>
+      </details>
+
+      <details>
+        <summary>Who is eligible for the 7-day trial?</summary>
+        <div><p>Apple determines introductory-offer eligibility for each Apple Account and subscription group. The purchase confirmation sheet shows whether a trial applies before you confirm. If it displays an immediate charge instead, the account is not currently receiving the trial.</p></div>
+      </details>
+
+      <details>
+        <summary>What does the Lifetime purchase include?</summary>
+        <div><p>It is a non-consumable unlock for Foldmetry Pro in this App. It can be restored through the purchasing Apple Account while the App remains distributed and compatible. It is not a promise that every device or operating-system version will be supported forever, or that unrelated future apps are included.</p></div>
+      </details>
+
+      <details>
+        <summary>Does Family Sharing work?</summary>
+        <div><p>No. Family Sharing is not enabled for Foldmetry Pro Annual or Foldmetry Pro Lifetime in version 1.0. On another device, sign in with the Apple Account that made the purchase and use <strong>Settings → Restore Purchases</strong>.</p></div>
+      </details>
+
+      <details>
+        <summary>Will my progress move to a new device?</summary>
+        <div><p>Foldmetry 1.0 has no developer account or cloud-sync feature. Device backup and migration behavior is controlled by Apple, and local progress cannot be guaranteed to transfer. Pro purchase entitlements are separate and may be restored with the applicable Apple Account.</p></div>
+      </details>
+
+      <details>
+        <summary>I think a generated question has no valid answer.</summary>
+        <div><p>Please send the mode, difficulty, displayed question number or seed if shown, the answer choices, and a screenshot. Do not rely on a disputed question for a consequential school, job, or health decision. Foldmetry exercises are educational practice, not standardized assessments.</p></div>
+      </details>
+
+      <details>
+        <summary>How do I make the app easier to see or navigate?</summary>
+        <div><p>Foldmetry supports Dynamic Type and VoiceOver, and respects Reduce Motion for its custom motion and 3D interactions. Configure them in iOS/iPadOS Settings → Accessibility. If a question or control remains inaccessible, tell us the mode, device, text size, orientation, and assistive feature in use.</p></div>
+      </details>
+
+      <details>
+        <summary>What information should I include in a bug report?</summary>
+        <div><p>Include Foldmetry version/build, device model, iOS/iPadOS version, language, orientation, training mode and difficulty, expected behavior, actual behavior, and reproducible steps. A screen recording or screenshot helps. Remove notifications, Apple Account details, and other personal content before attaching it.</p></div>
+      </details>
+
+      <h2>Privacy and safety</h2>
+      <p>Foldmetry has no ads or analytics and does not transmit your training history to the developer. Support email is voluntary and handled outside the App. Read the full <a href="../privacy/">Privacy Policy</a>. Never send passwords, verification codes, full payment-card details, government identifiers, or unnecessary sensitive data.</p>
+      <p class="warning"><strong>Safety note:</strong> Foldmetry is not an IQ test, medical service, diagnostic tool, or guarantee of exam performance.</p>
+    </section>
+
+    <section id="chinese" class="zh" lang="zh-Hans" aria-labelledby="chinese-title">
+      <h2 id="chinese-title">简体中文支持</h2>
+      <div class="hero-card">
+        <h3>需要人工帮助？</h3>
+        <p>请在邮件中注明应用版本、设备型号、iOS/iPadOS 版本、预期结果、实际情况和复现步骤。不含个人信息的截图也很有帮助。</p>
+        <a class="button" href="mailto:icubic3@icloud.com?subject=Foldmetry%20%E6%94%AF%E6%8C%81">发送邮件至 icubic3@icloud.com</a>
+        <p>目标回复时间：两个工作日内。App Store 付款与退款决定需要由 Apple 处理。</p>
+      </div>
+
+      <div class="grid" role="group" aria-label="快捷帮助">
+        <div class="card"><h3>恢复购买</h3><p>使用完成购买的 Apple 账户登录，然后在折维中打开<strong>设置 → 恢复购买</strong>。</p></div>
+        <div class="card"><h3>管理订阅</h3><p>前往 <a href="https://apps.apple.com/account/subscriptions" rel="noopener">Apple 订阅设置</a>查看、更改或取消续订。</p></div>
+        <div class="card"><h3>申请退款</h3><p>App Store 费用由 Apple 处理，请在 <a href="https://reportaproblem.apple.com/" rel="noopener">Apple 问题报告网站</a>提交符合条件的申请。</p></div>
+        <div class="card"><h3>重置本地进度</h3><p>使用折维设置中的重置选项。删除应用也会移除本地容器，但不会取消订阅。</p></div>
+      </div>
+
+      <h2>常见问题</h2>
+
+      <details open>
+        <summary>折维需要注册或联网吗？</summary>
+        <div><p>不需要 Foldmetry 账号。训练题目、进度与历史保存在本地，设计上可以离线使用。加载当前商品信息、购买、恢复和刷新权益时，需要连接 Apple 的 App Store 服务。</p></div>
+      </details>
+
+      <details>
+        <summary>已经付款，但 Pro 仍然锁定，怎么办？</summary>
+        <div>
+          <ol>
+            <li>确认 App Store 购买已完成，并非已取消、等待批准、已退款或使用了另一个 Apple 账户。</li>
+            <li>连接网络，重新打开折维。</li>
+            <li>进入<strong>设置 → 恢复购买</strong>。</li>
+            <li>如果是订阅，请在 <a href="https://apps.apple.com/account/subscriptions" rel="noopener">Apple 订阅设置</a>确认仍然有效。</li>
+            <li>重启应用和设备，再恢复一次。</li>
+          </ol>
+          <p>仍未解锁时，请邮件告知商品类型与大致购买日期。<strong>不要发送密码、完整收据、卡号或其他付款凭据。</strong></p>
+        </div>
+      </details>
+
+      <details>
+        <summary>如何取消年度会员？</summary>
+        <div><p>订阅由 Apple 管理。打开 <a href="https://apps.apple.com/account/subscriptions" rel="noopener">Apple 订阅设置</a>，选择 Foldmetry 并按提示取消。为避免续订，请至少在当前周期结束前 24 小时取消。删除折维不会取消订阅。</p></div>
+      </details>
+
+      <details>
+        <summary>谁可以获得 7 天免费试用？</summary>
+        <div><p>Apple 会根据 Apple 账户与订阅组判断优惠资格。确认购买前，系统购买页会显示是否包含试用；如果页面显示立即扣费，说明该账户当前没有获得试用。</p></div>
+      </details>
+
+      <details>
+        <summary>永久版包含什么？</summary>
+        <div><p>永久版是本应用 Foldmetry Pro 的非消耗型解锁。在应用仍有分发并保持兼容期间，可通过购买所用 Apple 账户恢复。它不承诺永远支持每台设备或每个操作系统版本，也不包含未来无关的其他应用。</p></div>
+      </details>
+
+      <details>
+        <summary>支持“家人共享”吗？</summary>
+        <div><p>不支持。Foldmetry 1.0 的年度会员与永久版均未启用“家人共享”。在其他设备上，请登录完成购买的 Apple 账户，然后使用<strong>设置 → 恢复购买</strong>。</p></div>
+      </details>
+
+      <details>
+        <summary>训练进度会转移到新设备吗？</summary>
+        <div><p>Foldmetry 1.0 没有开发者账号或云同步。设备备份和迁移由 Apple 管理，无法保证本地进度一定转移。Pro 购买权益与本地进度分开，可以尝试通过相应 Apple 账户恢复。</p></div>
+      </details>
+
+      <details>
+        <summary>我认为一道生成题没有正确答案。</summary>
+        <div><p>请发送训练模式、难度、页面显示的题号或种子（如果有）、选项与截图。存在争议的题目不应被用于重要的学习、工作或健康决定；折维是教育练习，不是标准化测评。</p></div>
+      </details>
+
+      <details>
+        <summary>如何改善可读性或无障碍操作？</summary>
+        <div><p>折维支持动态字体和旁白，并会在自定义动效与 3D 交互中遵循“减弱动态效果”设置，可在 iOS/iPadOS 的“设置 → 辅助功能”中调整。如果某道题或控件仍无法使用，请告知模式、设备、字体大小、屏幕方向与正在使用的辅助功能。</p></div>
+      </details>
+
+      <details>
+        <summary>错误报告中应包含什么？</summary>
+        <div><p>请提供折维版本与构建号、设备型号、iOS/iPadOS 版本、语言、屏幕方向、训练模式和难度、预期行为、实际行为与复现步骤。截图或录屏会有帮助，发送前请移除通知、Apple 账户资料和其他个人内容。</p></div>
+      </details>
+
+      <h2>隐私与安全</h2>
+      <p>折维没有广告或分析工具，不会把训练历史发送给开发者。支持邮件由用户主动发送，并在应用外处理。详情请阅读<a href="../privacy/">隐私政策</a>。请勿发送密码、验证码、完整银行卡资料、政府证件号码或不必要的敏感数据。</p>
+      <p class="warning"><strong>重要说明：</strong>折维不是智商测试、医疗服务或诊断工具，也不保证考试成绩。</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Foldmetry · <a href="../privacy/">Privacy / <span lang="zh-Hans">隐私</span></a> · <a href="../terms/">Terms / <span lang="zh-Hans">条款</span></a></p>
+  </footer>
+</body>
+</html>
