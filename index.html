@@ -116,10 +116,10 @@
         <h2>Optional Anonymous Analytics</h2>
         <p>Anonymous analytics is off until you make a choice in the App. If you choose “Share Anonymous Usage,” the App uses TelemetryDeck to send:</p>
         <ul>
-            <li>a randomly generated installation identifier;</li>
+            <li>a one-way hashed, app-specific device identifier (TelemetryDeck does not receive the raw identifier);</li>
             <li>feature-interaction event names and session information;</li>
             <li>the App version and build number;</li>
-            <li>general device and system information, such as device model, operating-system version, and language or locale; and</li>
+            <li>general device and system information, such as device model, operating-system version, screen characteristics, language, region, time zone, and accessibility settings; and</li>
             <li>an hour-rounded event timestamp.</li>
         </ul>
         <p>We use this information only to understand which features are useful, diagnose broad product issues, and improve the App. TelemetryDeck states that it does not store IP addresses. For more information, see <a href="https://telemetrydeck.com/privacy/">TelemetryDeck’s Privacy Policy</a> and <a href="https://telemetrydeck.com/docs/guides/privacy-faq/">Privacy FAQ</a>.</p>
