@@ -3,66 +3,152 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - My Stock Yardages</title>
+    <meta name="description" content="Privacy Policy for the My Stock Yardages iOS app.">
+    <title>Privacy Policy — My Stock Yardages</title>
     <style>
+        :root {
+            color-scheme: light dark;
+            --accent: #238636;
+            --text: #1f2328;
+            --muted: #59636e;
+            --border: #d0d7de;
+            --surface: #f6f8fa;
+            --background: #ffffff;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --accent: #3fb950;
+                --text: #f0f6fc;
+                --muted: #9198a1;
+                --border: #3d444d;
+                --surface: #151b23;
+                --background: #0d1117;
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
         body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
+            background: var(--background);
+            color: var(--text);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            font-size: 17px;
+            line-height: 1.65;
+            margin: 0;
+        }
+
+        main {
             margin: 0 auto;
-            max-width: 800px;
-            padding: 20px;
-            color: #333;
+            max-width: 780px;
+            padding: 48px 24px 72px;
         }
-        h1, h2 {
-            color: #444;
-        }
+
         h1 {
-            border-bottom: 1px solid #eee;
-            padding-bottom: 10px;
+            font-size: clamp(2rem, 7vw, 3.25rem);
+            letter-spacing: -0.035em;
+            line-height: 1.08;
+            margin: 0 0 12px;
         }
+
+        h2 {
+            border-top: 1px solid var(--border);
+            font-size: 1.35rem;
+            margin: 40px 0 10px;
+            padding-top: 28px;
+        }
+
+        p, ul {
+            margin: 12px 0;
+        }
+
+        li + li {
+            margin-top: 8px;
+        }
+
+        a {
+            color: var(--accent);
+        }
+
         .updated {
-            color: #666;
-            font-style: italic;
-            margin-bottom: 20px;
+            color: var(--muted);
+            margin-bottom: 28px;
+        }
+
+        .summary {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 18px 20px;
+        }
+
+        footer {
+            color: var(--muted);
+            font-size: 0.9rem;
+            margin-top: 48px;
         }
     </style>
 </head>
 <body>
-    <h1>Privacy Policy for My Stock Yardages</h1>
-    <p class="updated">Last Updated: June 2025</p>
+    <main>
+        <h1>Privacy Policy for My Stock Yardages</h1>
+        <p class="updated">Last updated: August 10, 2026</p>
 
-    <h2>Introduction</h2>
-    <p>This Privacy Policy describes how My Stock Yardages ("we," "our," or "us") handles information when you use our mobile application ("App"). We are committed to protecting your privacy and being transparent about our practices.</p>
+        <p class="summary"><strong>In short:</strong> My Stock Yardages is local-first. Its calculator works without a network connection. Network access is used for iCloud sync and, only if you consent, privacy-friendly anonymous analytics. We do not sell personal data, show ads, or track you across apps or websites.</p>
 
-    <h2>Information Collection</h2>
-    <p>My Stock Yardages does not collect any personal information from its users. The App:</p>
-    <ul>
-        <li>Does not require user registration or login</li>
-        <li>Does not collect any personal data</li>
-        <li>Does not access your contacts, photos, or other device data</li>
-        <li>Does not track your location</li>
-        <li>Does not connect to the internet</li>
-        <li>Does not use analytics tools</li>
-        <li>Does not display third-party content or advertisements</li>
-    </ul>
+        <h2>About This Policy</h2>
+        <p>This Privacy Policy explains how My Stock Yardages (the “App,” “we,” “our,” or “us”) handles information. The App does not require an account, registration, your name, or your email address.</p>
 
-    <h2>Data Storage</h2>
-    <p>Any data created while using the App is stored locally on your device only. We do not have access to this data, nor is it transmitted to any external servers.</p>
+        <h2>Data Stored on Your Device</h2>
+        <p>The App stores the information you create locally on your device, including club names and yardages, imported CSV data, environment settings, saved records, notes, and comments. Core calculations and access to locally stored data remain available without a network connection.</p>
 
-    <h2>Third-Party Services</h2>
-    <p>My Stock Yardages does not utilize any third-party services, SDKs, or libraries that collect user data.</p>
+        <h2>iCloud Sync</h2>
+        <p>When iCloud sync is enabled, the App stores a copy of your club tables and saved history in your private Apple iCloud key-value store. This lets the latest changes sync between devices signed in to the same Apple Account.</p>
+        <ul>
+            <li>iCloud data is handled by Apple under <a href="https://www.apple.com/legal/privacy/">Apple’s Privacy Policy</a>.</li>
+            <li>We do not receive your Apple Account credentials and cannot browse the content in your private iCloud store.</li>
+            <li>You can stop future syncing at any time in the App’s Settings.</li>
+            <li>The “Delete iCloud Copy” control removes the App’s synced copy from iCloud and turns off iCloud sync. It does not delete the local copy on the device where you use that control.</li>
+        </ul>
 
-    <h2>In-App Purchases</h2>
-    <p>The App does not offer any in-app purchases or subscription services.</p>
+        <h2>Optional Anonymous Analytics</h2>
+        <p>Anonymous analytics is off until you make a choice in the App. If you choose “Share Anonymous Usage,” the App uses TelemetryDeck to send:</p>
+        <ul>
+            <li>a randomly generated installation identifier;</li>
+            <li>feature-interaction event names and session information;</li>
+            <li>the App version and build number;</li>
+            <li>general device and system information, such as device model, operating-system version, and language or locale; and</li>
+            <li>an hour-rounded event timestamp.</li>
+        </ul>
+        <p>We use this information only to understand which features are useful, diagnose broad product issues, and improve the App. TelemetryDeck states that it does not store IP addresses. For more information, see <a href="https://telemetrydeck.com/privacy/">TelemetryDeck’s Privacy Policy</a> and <a href="https://telemetrydeck.com/docs/guides/privacy-faq/">Privacy FAQ</a>.</p>
 
-    <h2>Children's Privacy</h2>
-    <p>My Stock Yardages does not collect information from anyone, including children under the age of 13.</p>
+        <h2>Information We Do Not Send to Analytics</h2>
+        <p>Analytics events never include your yardage values, club names, CSV contents, saved records, notes, comments, precise temperature or altitude, location, contacts, photos, Apple Account information, or iCloud-synced content.</p>
 
-    <h2>Changes to This Privacy Policy</h2>
-    <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date.</p>
+        <h2>Your Analytics Choice</h2>
+        <p>You can allow or decline anonymous analytics when prompted, and change that choice later under Settings → Privacy. Turning analytics off stops future analytics collection from that installation.</p>
 
-    <h2>Contact Us</h2>
-    <p>If you have any questions about this Privacy Policy, please contact us at:</p>
-    <p>icubic3@gmail.com</p>
+        <h2>App Store Privacy Summary</h2>
+        <p>When anonymous analytics is enabled, the App may collect Product Interaction and Device ID data for Analytics. This data is not linked to your identity and is not used to track you across apps or websites. The App does not use Apple’s AppTrackingTransparency framework because it does not perform tracking.</p>
+
+        <h2>Sharing, Advertising, and Sale of Data</h2>
+        <p>We do not sell personal information. The App contains no third-party advertising and does not share data with data brokers. TelemetryDeck acts as our analytics service provider only when you enable anonymous analytics. Apple provides iCloud sync on your behalf when you enable that feature.</p>
+
+        <h2>Security and Retention</h2>
+        <p>Network traffic for iCloud and TelemetryDeck uses encrypted connections. Local data remains on your device until you remove it or uninstall the App. iCloud data remains under your Apple Account until it is removed through the App or Apple’s services. Anonymous analytics is retained only for product analysis and according to TelemetryDeck’s service policies.</p>
+
+        <h2>Children’s Privacy</h2>
+        <p>The App is not directed to children under 13, and we do not knowingly collect personal information from children. If you believe a child has provided personal information through the App, contact us so we can investigate.</p>
+
+        <h2>Changes to This Policy</h2>
+        <p>We may update this Privacy Policy when the App or applicable requirements change. We will post the revised policy on this page and update the date above.</p>
+
+        <h2>Contact Us</h2>
+        <p>For privacy questions or requests, email <a href="mailto:icubic3@gmail.com">icubic3@gmail.com</a>.</p>
+
+        <footer>My Stock Yardages · Privacy Policy</footer>
+    </main>
 </body>
 </html>
