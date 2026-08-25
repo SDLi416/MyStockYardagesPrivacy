@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="dark">
-  <meta name="description" content="Foldmetry privacy policy. The app works offline, requires no account, and does not collect app data or track users.">
+  <meta name="description" content="Foldmetry privacy policy. Training stays on your device. The app uses privacy-friendly anonymous analytics and does not track you across apps or websites.">
   <title>Privacy Policy — Foldmetry / 折维</title>
   <style>
     :root { --bg:#08111f; --panel:#101c2d; --panel2:#15243a; --text:#f4f7fb; --muted:#aebbd0; --line:#2a3a52; --accent:#68e0c0; --accent2:#8ba8ff; --max:880px; }
@@ -46,9 +46,9 @@
   <header>
     <div class="brand">Foldmetry / <span lang="zh-Hans">折维</span></div>
     <h1>Privacy Policy</h1>
-    <p class="lede">Foldmetry is designed to train spatial reasoning without building a profile about you. The app works offline, requires no account, and does not transmit your training activity to us.</p>
-    <span class="badge">No account</span><span class="badge">No ads</span><span class="badge">No tracking</span><span class="badge">No app data collected</span>
-    <p><strong>Effective date:</strong> August 10, 2026 · <strong>Version:</strong> 1.1</p>
+    <p class="lede">Foldmetry is designed to train spatial reasoning without building a personal profile about you. Training stays on your device. The app uses privacy-friendly anonymous analytics and does not track you across apps or websites.</p>
+    <span class="badge">No account</span><span class="badge">No ads</span><span class="badge">No tracking</span><span class="badge">Anonymous analytics</span>
+    <p><strong>Effective date:</strong> August 25, 2026 · <strong>Version:</strong> 1.1</p>
     <nav aria-label="Language and document navigation">
       <a href="#english">English</a>
       <a href="#chinese" lang="zh-Hans">简体中文</a>
@@ -61,11 +61,11 @@
     <section id="english" aria-labelledby="english-title">
       <h2 id="english-title">English</h2>
       <div class="summary">
-        <p><strong>Short version:</strong> Foldmetry does not create an account, show ads, use analytics, track you across apps or websites, or send your exercise history to the developer. Progress and preferences stay on your device.</p>
+        <p><strong>Short version:</strong> Foldmetry does not create an account, show ads, or track you across apps or websites. Training answers and progress stay on your device. The app uses TelemetryDeck to send anonymous product analytics so we can understand which features are useful.</p>
       </div>
 
       <h2>1. Scope</h2>
-      <p>This policy explains how the Foldmetry iOS and iPadOS application (the “App”) and Foldmetry’s public support pages handle information. It applies to version 1.1 and earlier versions as described here. Apple’s App Store, Apple Account, StoreKit, email providers, and website-hosting services operate under their own privacy policies.</p>
+      <p>This policy explains how the Foldmetry iOS and iPadOS application (the “App”) and Foldmetry’s public support pages handle information. It applies to version 1.1 as described here. Apple’s App Store, Apple Account, StoreKit, TelemetryDeck, email providers, and website-hosting services operate under their own privacy policies.</p>
 
       <h2>2. Information handled by the App</h2>
       <table>
@@ -73,14 +73,26 @@
         <tbody>
           <tr><td>Training progress, answers, streaks, history, and settings</td><td>Generated and stored locally on your device. The App does not upload this information to Foldmetry.</td></tr>
           <tr><td>Account or profile information</td><td>Not requested. Foldmetry has no user-account system.</td></tr>
-          <tr><td>Advertising or analytics identifiers</td><td>Not requested or used. The App contains no advertising or third-party analytics SDK.</td></tr>
+          <tr><td>Anonymous product analytics</td><td>When analytics is enabled, the App sends a one-way hashed app-specific device identifier, feature and session events, and general device/app metadata to TelemetryDeck. Training answers, question content, and payment details are not included. You can turn this off in Settings.</td></tr>
+          <tr><td>Advertising identifiers</td><td>Not requested or used. The App contains no advertising SDK and does not request App Tracking Transparency permission.</td></tr>
           <tr><td>Location, contacts, photos, camera, microphone, health, or biometric data</td><td>Not requested or accessed by the App.</td></tr>
-          <tr><td>Purchase status</td><td>Apple processes purchases. StoreKit provides signed product and entitlement information so the App can unlock Pro features. The App verifies it on device and does not send transaction data to a Foldmetry server.</td></tr>
+          <tr><td>Purchase status</td><td>Apple processes purchases. StoreKit provides signed product and entitlement information so the App can unlock Pro features. The App verifies it on device and does not send payment-card data to Foldmetry.</td></tr>
         </tbody>
       </table>
 
       <h2>3. Tracking and advertising</h2>
-      <p>Foldmetry does not track you across apps or websites, create an advertising profile, sell personal information, or share app activity with data brokers or advertisers. The App does not request App Tracking Transparency permission because it does not engage in tracking.</p>
+      <p>Foldmetry does not track you across apps or websites, create an advertising profile, sell personal information, or share app activity with data brokers or advertisers. The App does not request App Tracking Transparency permission because it does not engage in tracking as Apple defines it.</p>
+
+      <h2>3A. TelemetryDeck analytics</h2>
+      <p>We use the privacy-friendly analytics service TelemetryDeck (TelemetryDeck GmbH, Von-der-Tann-Str. 54, 86159 Augsburg, Germany) to understand how Foldmetry is used. TelemetryDeck states that it does not store IP addresses. Analytics events include:</p>
+      <ul>
+        <li>an anonymized, untraceable user ID for this app installation;</li>
+        <li>actions such as finishing onboarding, starting a session, completing a session, or viewing the Pro screen;</li>
+        <li>a timestamp rounded to the nearest hour;</li>
+        <li>device metadata such as system version, app version, and device type;</li>
+        <li>coarse metadata we define, such as training mode names, difficulty, session kind, and accuracy bands—not answers or question content.</li>
+      </ul>
+      <p>Further information: <a href="https://telemetrydeck.com/privacy" rel="noopener">TelemetryDeck Privacy Policy</a> and <a href="https://telemetrydeck.com/docs/guides/privacy-faq/" rel="noopener">Privacy FAQ</a>. You can disable anonymous analytics in Foldmetry Settings.</p>
 
       <h2>4. Local storage and deletion</h2>
       <p>The App uses Apple-provided local storage to remember preferences, progress, and training history. This data remains under your device and backup settings. You can use the in-app reset option to clear training data where available, or delete the App to remove its local container from the device. A device backup may retain a copy according to your Apple backup settings; Foldmetry cannot access or delete that backup for you.</p>
@@ -102,7 +114,7 @@
       <p>Keeping training data on device reduces exposure, but no device or electronic system is completely secure. Support email and website delivery may be processed in regions where their providers operate. Those providers are responsible for their own safeguards and legal transfer mechanisms.</p>
 
       <h2>10. Your choices and rights</h2>
-      <p>Because Foldmetry does not receive your in-app training data, we generally cannot access, export, correct, or identify it. You control it on the device. For support correspondence that we can reasonably identify, you may contact us to request access, correction, or deletion where applicable law provides those rights. We may need enough information to verify and locate your request, but will not ask for unrelated information.</p>
+      <p>Training answers and progress stay on the device, so we generally cannot access, export, correct, or identify that content. You control it on the device, including the in-app reset option. Anonymous analytics uses a hashed identifier that we cannot reverse to a person. You can stop future analytics from Settings. For support correspondence that we can reasonably identify, you may contact us to request access, correction, or deletion where applicable law provides those rights.</p>
 
       <h2>11. Changes</h2>
       <p>If the App’s data practices change—for example, if a future version introduces cloud sync, accounts, analytics, or a new service—we will update this policy and the App Store privacy disclosures before or when that change takes effect. Material changes will receive an updated effective date and appropriate notice.</p>
@@ -117,11 +129,11 @@
     <section id="chinese" class="zh" lang="zh-Hans" aria-labelledby="chinese-title">
       <h2 id="chinese-title">隐私政策（简体中文）</h2>
       <div class="summary">
-        <p><strong>简要说明：</strong>Foldmetry 折维无需注册，没有广告，不使用分析工具，不会跨应用或网站追踪你，也不会把答题与训练记录发送给开发者。进度与偏好只保存在你的设备上。</p>
+        <p><strong>简要说明：</strong>Foldmetry 折维无需注册，没有广告，也不会跨应用或网站追踪你。答题与训练进度只保存在你的设备上。应用会使用 TelemetryDeck 发送匿名产品分析，以便了解哪些功能有用。</p>
       </div>
 
       <h2>1. 适用范围</h2>
-      <p>本政策说明 Foldmetry 折维 iOS 与 iPadOS 应用（以下简称“本应用”）以及公开支持页面如何处理信息，适用于此处描述的 1.1 版本及更早版本。Apple 的 App Store、Apple 账户、StoreKit，以及邮件与网站托管服务由相应提供方依其隐私政策运营。</p>
+      <p>本政策说明 Foldmetry 折维 iOS 与 iPadOS 应用（以下简称“本应用”）以及公开支持页面如何处理信息，适用于此处描述的 1.1 版本。Apple 的 App Store、Apple 账户、StoreKit、TelemetryDeck，以及邮件与网站托管服务由相应提供方依其隐私政策运营。</p>
 
       <h2>2. 本应用处理的信息</h2>
       <table>
@@ -129,14 +141,26 @@
         <tbody>
           <tr><td>训练进度、答案、连续记录、历史与设置</td><td>在设备上生成并保存在本地，本应用不会把这些信息上传给 Foldmetry。</td></tr>
           <tr><td>账号或个人资料</td><td>不要求提供。Foldmetry 没有用户账号系统。</td></tr>
-          <tr><td>广告或分析标识符</td><td>不请求、不使用。本应用不包含广告或第三方分析 SDK。</td></tr>
+          <tr><td>匿名产品分析</td><td>在统计开启时，本应用会向 TelemetryDeck 发送经过单向哈希的应用专用设备标识符、功能和会话事件，以及一般设备与 App 元数据。训练答案、题目内容和付款详情不包含在内。可在设置中关闭。</td></tr>
+          <tr><td>广告标识符</td><td>不请求、不使用。本应用不含广告 SDK，也不请求“App 跟踪透明度”权限。</td></tr>
           <tr><td>位置、通讯录、照片、相机、麦克风、健康或生物识别数据</td><td>本应用不请求、也不访问。</td></tr>
-          <tr><td>购买状态</td><td>购买由 Apple 处理。StoreKit 向本应用提供已签名的商品与权益信息，以解锁 Pro 功能。本应用在设备端验证，不会把交易数据发送到 Foldmetry 服务器。</td></tr>
+          <tr><td>购买状态</td><td>购买由 Apple 处理。StoreKit 向本应用提供已签名的商品与权益信息，以解锁 Pro 功能。本应用在设备端验证，不会把银行卡资料发送给 Foldmetry。</td></tr>
         </tbody>
       </table>
 
       <h2>3. 追踪与广告</h2>
-      <p>Foldmetry 不会跨应用或网站追踪你，不建立广告画像，不出售个人信息，也不会向数据经纪商或广告商分享应用内活动。本应用不进行追踪，因此不会请求“App 跟踪透明度”权限。</p>
+      <p>Foldmetry 不会跨应用或网站追踪你，不建立广告画像，不出售个人信息，也不会向数据经纪商或广告商分享应用内活动。本应用不进行 Apple 所定义的追踪，因此不会请求“App 跟踪透明度”权限。</p>
+
+      <h2>3A. TelemetryDeck 统计分析</h2>
+      <p>我们使用注重隐私的分析服务 TelemetryDeck（TelemetryDeck GmbH，Von-der-Tann-Str. 54, 86159 Augsburg, Germany）了解 Foldmetry 的使用情况。TelemetryDeck 声明不存储 IP 地址。统计事件包括：</p>
+      <ul>
+        <li>针对本次安装的匿名、不可追溯用户标识；</li>
+        <li>完成引导、开始训练、完成训练或查看 Pro 页面等操作；</li>
+        <li>四舍五入到小时的时间戳；</li>
+        <li>系统版本、应用版本、设备类型等设备元数据；</li>
+        <li>我们定义的粗粒度元数据，例如训练模式名称、难度、会话类型和正确率区间，不含答案或题目内容。</li>
+      </ul>
+      <p>更多信息见 <a href="https://telemetrydeck.com/privacy" rel="noopener">TelemetryDeck 隐私政策</a> 与 <a href="https://telemetrydeck.com/docs/guides/privacy-faq/" rel="noopener">Privacy FAQ</a>。你可以在折维设置中关闭匿名统计。</p>
 
       <h2>4. 本地存储与删除</h2>
       <p>本应用使用 Apple 提供的本地存储记录偏好、进度和训练历史。这些数据由你的设备与备份设置管理。你可以使用应用内的重置选项清除训练数据（如当前版本提供），也可以删除本应用以移除设备上的本地容器。设备备份可能会依你的 Apple 备份设置保留副本；Foldmetry 无法访问或代你删除该备份。</p>
@@ -158,7 +182,7 @@
       <p>把训练数据留在设备上可以减少暴露，但任何设备或电子系统都无法保证绝对安全。支持邮件与网站传输可能会在相关服务商运营的地区处理，其安全措施和合法传输机制由相应服务商负责。</p>
 
       <h2>10. 你的选择与权利</h2>
-      <p>由于 Foldmetry 不会取得应用内训练数据，我们通常无法访问、导出、更正或识别这些数据；它由你在设备上控制。对于能够合理识别的支持邮件，在适用法律赋予相关权利时，你可以联系我们请求访问、更正或删除。我们可能需要足以核实并定位请求的信息，但不会要求无关资料。</p>
+      <p>训练答案与进度留在设备上，我们通常无法访问、导出、更正或识别这些内容；它由你在设备上控制，也可以使用应用内重置。匿名统计使用我们无法还原到个人的哈希标识。你可以在设置中停止后续统计。对于能够合理识别的支持邮件，在适用法律赋予相关权利时，你可以联系我们请求访问、更正或删除。</p>
 
       <h2>11. 政策变更</h2>
       <p>如果应用的数据处理方式发生变化，例如未来新增云同步、账号、分析工具或新的服务，我们会在变更生效前或生效时更新本政策及 App Store 隐私披露。重大变更会标注新的生效日期，并以适当方式通知。</p>
